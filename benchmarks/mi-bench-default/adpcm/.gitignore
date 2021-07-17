@@ -1,0 +1,5 @@
+*.o
+rawcaudio.o
+rawdaudio.o
+timing.o
+../output*

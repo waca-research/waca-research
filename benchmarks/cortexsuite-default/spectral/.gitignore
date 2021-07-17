@@ -1,0 +1,5 @@
+spc-small.o
+spc-medium.o
+spc-large.o
+*.o
+output*

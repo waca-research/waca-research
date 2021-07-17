@@ -1,0 +1,16 @@
+#################################################
+On Jetson Xavier NX and AGX Xavier:
+#################################################
+- In /etc/sysctl.d/99-sysctl.conf, add the entry:
+  kernel.perf_event_paranoid = 0
+  This modification will allow perf and PAPI functions/programs 
+  to access the performance counters
+
+- Install sysfsutils by:
+  sudo apt install sysfsutils -y
+  
+  In /etc/sysfs.conf, add the entry:
+  devices/pwm-fan/target_pwm = 255
+  This modification sets the fan to full speed during Linux boot
+
+- Rebuild the kernel for Tegra by adding sysfs entries to file write CPU utilization

@@ -1,0 +1,4 @@
+*.o
+search_small.o
+search_large.o
+output*

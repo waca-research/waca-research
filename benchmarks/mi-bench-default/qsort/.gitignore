@@ -1,0 +1,4 @@
+*.o
+qsort_small.o
+qsort_large.o
+output*

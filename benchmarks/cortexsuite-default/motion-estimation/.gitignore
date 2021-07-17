@@ -1,0 +1,5 @@
+me-small.o
+me-medium.o
+me-large.o
+output*
+*.o

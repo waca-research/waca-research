@@ -1,0 +1,4 @@
+*.o
+dijkstra_small.o
+dijkstra_large.o
+output*
