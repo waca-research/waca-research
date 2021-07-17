@@ -18,7 +18,7 @@ The following must be enabled in Odroid-XU3, Xavier NX and AGX Xavier:
 - `benchmarks/mi-bench-default` for MiBench applications
 - `benchmarks/cortexsuite-default` for CortexSuite applications
 - `benchmarks/parsec-source-default` for PARSEC applications
-- `benchmarks/dnn-default` for MiBench applications
+- `benchmarks/dnn-default` for DNN applications
 
 ## Parameters to cross-check before starting WACA based runs
 - Specify the platform (`odroid`, `xavier_nx`, or `agx_xavier`) in `PLATFORM` in `benchmarks/common/common.mk`
